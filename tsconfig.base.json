@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "module": "esnext",
     "target": "es6",
     "composite": true,

@@ -3,7 +3,9 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    "baseUrl": "src",
+    "paths": {
+      "@lib":[ "./src/lib.ts"]
+    },
     "plugins": [
       {
         "transform": "typescript-transform-paths"

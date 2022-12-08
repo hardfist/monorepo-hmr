@@ -1,2 +1,2 @@
-import { alias } from 'lib';
+import { alias } from '@lib';
 export { alias }

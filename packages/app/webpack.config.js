@@ -13,10 +13,9 @@ module.exports = {
         test: /\.ts$/,
         use: [
           {
-            loader: 'ts-loader',
+            loader: 'esbuild-loader',
             options: {
-              transpileOnly: false, // Set to true if you are using fork-ts-checker-webpack-plugin
-              projectReferences: true,
+              loader: 'ts',
             },
           },
         ],
