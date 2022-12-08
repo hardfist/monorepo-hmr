@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declarationMap": true,
+    "module": "esnext",
+    "target": "es6",
+    "composite": true,
+    "moduleResolution": "node"
+  }
+}
