@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "pr": "ttsc -b --watch",
+    "start": "run-p pr watch"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
     "webpack": "5",
     "webpack-cli": "5.0.1",
     "ts-loader": "9.4.2",
-    "lib1": "workspace:*"
+    "lib1": "workspace:*",
+    "alias": "workspace:*"
   }
 }

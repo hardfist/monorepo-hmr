@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "pr": "tsc -b --watch",
+
     "build": "tsc && vite build",
     "start": "run-p pr dev",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tpr": "ttsc -b --watch"
   },
   "dependencies": {
     "react": "^18.2.0",
